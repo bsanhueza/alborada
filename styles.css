@@ -1,0 +1,62 @@
+h5, h6 {
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  font-style: bold;
+  line-height: 1.2;
+  background-color: rgba(153, 150, 150, 0.336);
+  font-family: 'Oswald', sans-serif;
+}
+
+.display-4 {
+  font-size: 40px;
+}
+
+.img-fluid {
+  opacity: 80%;
+  background-size: cover;
+  background-position: center;
+}
+
+.fa-globe-americas, .fa-concierge-bell, .fa-home {
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2, h3, h4 {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+.navbar-brand img {
+  width: 100px;
+  height: 30px;
+}
+
+.navbar-light .navbar-brand {
+  color: red;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.jumbotron {
+  background-attachment: fixed;
+  background-image: url(hero-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+  font-family: 'Bangers', sans-serif;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+
+.footer img {
+  width: 100px;
+}

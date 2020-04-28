@@ -1,0 +1,116 @@
+<!-- I started with the Bootstrap starter template  -->
+<!-- https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contact Alborada</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Fix -->
+    <div class="container">
+        <br><br><br><br>
+    </div>
+
+    <!-- Form -->
+    <div class="container">
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>First Name</label>
+                    <input type="firstname" class="form-control" id="firstname" placeholder="John">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lastname">Last Name</label>
+                    <input type="lastname" class="form-control" id="lastname" placeholder="Doe">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="johndoe@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">Which projects are you interested in?</label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                  <option>Brickell 500 at Downtown</option>
+                  <option>The Bond at Brickell</option>
+                  <option>Porsche Design at Sunny Isles</option>
+                  <option>19 Palm Ave</option>
+                  <option>46 Star Island</option>
+                  <option>2555 Lake Ave</option>
+                </select>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <hr class="my-4">
+    <div class="container footer">
+      <div class="row my-5">
+        <a class="col-sm-3" href="index.html">
+          <img src="logo.svg">
+        </a>
+        <div class="col-sm-6">
+          <div class="container">
+            <a href="http://www.mialborada.cl">Visit Chilean webpage</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled">
+              <li>Follow Us:</li>
+              <li><a class="btn fab fa-twitter" href="https://twitter.com/hashtag/realestate?lang=en"></a></li>
+              <li><a class="btn fab fa-facebook-f" href="https://www.facebook.com/MiAlboradaInmobiliaria/?tn-str=k*F"></a></li>
+              <li><a class="btn fab fa-instagram" href="https://www.instagram.com/explore/tags/realestate/?hl=en"></a></li>
+              <li><a class="btn fab fa-linkedin-in" href="https://www.linkedin.com/company/alborada-inversiones/"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html> 
